@@ -1,7 +1,7 @@
 
 # Сайт новин
 
-http://news.failfast.org.ua
+[http://news.failfast.org.ua](http://news.failfast.org.ua)
 
 # Про нас
 
