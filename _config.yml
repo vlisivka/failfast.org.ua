@@ -2,7 +2,7 @@
 title:               'Fail fast'
 tagline:             'fail often, fail cheap.'
 description:         'Спільнота для стартаперів. <br/> Стартап — це новий бізнес, який від початку націлений на швидкий ріст з метою захопити значну долю ринку.'
-url:                 http://failfast.org.ua
+url:                 https://failfast.org.ua
 baseurl:             ''
 paginate:            5
 permalink:           pretty
