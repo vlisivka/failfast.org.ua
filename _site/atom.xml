@@ -4,13 +4,81 @@
  <title>Fail fast</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-09-08T20:34:10+03:00</updated>
+ <updated>2020-09-15T20:54:13+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name>Volodymyr Lisivka</name>
+   <name>Володимир Лісівка</name>
    <email>vlisivka@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Вибір ідеї для стартапа.</title>
+   <link href="http://localhost:4000/2020/09/15/how-to-chose-idea/"/>
+   <updated>2020-09-15T00:00:00+03:00</updated>
+   <id>http://localhost:4000/2020/09/15/how-to-chose-idea</id>
+   <content type="html">&lt;p&gt;Статаперам-початківцям часто важко знайти хорошу ідею, або вибрати одну ідею з багатьох.&lt;/p&gt;
+
+&lt;p&gt;YCombinator просуває одну просту ідею — «Не потрібно бути експертом по
+стартапам, потрібно бути експертом по користувачам та їхній проблемі.
+Створіть щось таке, що користувачі хочуть.»&lt;/p&gt;
+
+&lt;p&gt;З іншого боку, передивляючись інтервʼю із засновниками єдинорогів, я
+почув багато порад щодо того, як правильно вибрати ідею, у формі
+запитань. На цій сторінці я перелічів деякі з цих запитань, на які слід
+мати відповіді.&lt;/p&gt;
+
+&lt;p&gt;Інформація з цієї сторінки ніде не зберігається, так що краще зробити
+знімок сторінки в кінці, щоб мати інформацію десь збережену.&lt;/p&gt;
+
+&lt;p&gt;Ви можете відкрити цю сторінку декілька раз у різних вкладках, що
+порівняти різні ідеї між собою.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;problem_name&quot;&gt;Назва проблеми, напр. «Доставка свіжих продуктів з села»: &lt;br /&gt;&lt;input id=&quot;problem_name&quot; size=&quot;30&quot; /&gt;&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;problem&quot;&gt;Опис проблеми одним-двома реченнями, напр. «Люди хочуть свіжі, якісні, та дешеві продукти кожного дня, але їх важко знайти.»: &lt;br /&gt; &lt;textarea id=&quot;problem&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;solution&quot;&gt;Опис вашого рішення проблеми одним-двома реченнями, напр. «Доставка продуктів по підписці електросамокатами з самого ранку (свіжі продукти). Покупці знаходять продавців на нашому сайті, де є великий вибір (дешеві продукти, легко знайти). Покупці залишають відгук про продавця після покупки (якісні продукти).»: &lt;br /&gt; &lt;textarea id=&quot;solution&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи стикалися ви з цією проблемою особисто? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи користуєтеся ви особисто вашим рішенням проблеми? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи говорили ви з потенційними клієнтами про проблему (не рішення)? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи демонстрували ви клієнту ваше рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;better_solution&quot;&gt;Напишіть 1-2 речення чому ваше рішення проблеми подобається вам чи користувачам більше ніж інші рішення. Напр. «Мені подобається отримувати свіжі продукти перед сніданком, не витрачаючи на це багато часу, і дешевше ніж на базарі.».&lt;br /&gt; &lt;textarea id=&quot;better_solution&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи можете ви створити ессе або презентацію по цій проблемі? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи можете ви створити MVP власноруч? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи пробують потенційні покупці вирішити проблему вже? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;current_solution&quot;&gt;Напишіть 1-2 речення як саме покупці вирішують проблему вже. Напр. «Бабуся встає дуже рано і йде на ранній базар». &lt;br /&gt; &lt;textarea id=&quot;current_solution&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи пробували ви продати рішення проблеми без MVP? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи люблять потенційні користувачі ваше рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи ваше рішення вирішує проблему в 10 раз ефективніше чи дешевше ніж існуючі рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Який обʼєм ринку? Введіть оцінку, напр. «1 мільярд гривень в місяць.» &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Скільки гравців на ринку вже присутніх? Введіть оцінку, напр. «100 тсч. продавців» &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи ви почали з нішевого ринку, з низькою конкуренцією та високою націнкою? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи ви плануєте вийти на великий ринок з високою конкуренцією? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Яка ваша планована націнка? Введіть число, напр. «30%». &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи буде продукт з усіма витратами, націнкою, та податками значно нижчий по ціні ніж у конкурентів? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;Якщо ви маєте ще якісь питання, які допомогають у виборі ідеї, повідомте нам, будь ласка.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Продукт на пʼять балів.</title>
