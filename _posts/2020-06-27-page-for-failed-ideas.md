@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Прощання з ідеями
+comments: true
 ---
 
 <style>
