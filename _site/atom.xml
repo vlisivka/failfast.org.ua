@@ -4,7 +4,7 @@
  <title>Fail fast</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-09-16T20:08:54+03:00</updated>
+ <updated>2020-09-21T16:43:27+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Володимир Лісівка</name>
@@ -17,7 +17,8 @@
    <link href="http://localhost:4000/2020/09/15/how-to-chose-idea/"/>
    <updated>2020-09-15T00:00:00+03:00</updated>
    <id>http://localhost:4000/2020/09/15/how-to-chose-idea</id>
-   <content type="html">&lt;p&gt;Статаперам-початківцям часто важко знайти хорошу ідею, або вибрати одну ідею з багатьох.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/images/2020-09-15-how-to-chose-idea.md.3816.png&quot; alt=&quot;Погані ідеї — хороші ідеї&quot; /&gt;
+Статаперам-початківцям часто важко знайти хорошу ідею, або вибрати одну ідею з багатьох.&lt;/p&gt;
 
 &lt;p&gt;YCombinator просуває одну просту ідею — «Не потрібно бути експертом по
 стартапам, потрібно бути експертом по користувачам та їхній проблемі.
@@ -25,14 +26,20 @@
 
 &lt;p&gt;З іншого боку, передивляючись інтервʼю із засновниками єдинорогів, я
 почув багато порад щодо того, як правильно вибрати ідею, у формі
-запитань. На цій сторінці я перелічів деякі з цих запитань, на які слід
+запитань. На цій сторінці я перелічив деякі з цих запитань, на які слід
 мати відповіді.&lt;/p&gt;
 
 &lt;p&gt;Інформація з цієї сторінки ніде не зберігається, так що краще зробити
 знімок сторінки в кінці, щоб мати інформацію десь збережену.&lt;/p&gt;
 
-&lt;p&gt;Ви можете відкрити цю сторінку декілька раз у різних вкладках, що
+&lt;p&gt;Ви можете відкрити цю сторінку декілька раз у різних вкладках, щоб
 порівняти різні ідеї між собою.&lt;/p&gt;
+
+&lt;p&gt;Якщо ви ще не маєте ідей, розберіть 3 топові проблеми, з якими ви стикаєтеся особисто.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ідея-для-стартапу&quot;&gt;Ідея для стартапу&lt;/h2&gt;
 
 &lt;p&gt;&lt;label for=&quot;problem_name&quot;&gt;Назва проблеми, напр. «Доставка свіжих продуктів з села»: &lt;br /&gt;&lt;input id=&quot;problem_name&quot; size=&quot;30&quot; /&gt;&lt;/label&gt;&lt;/p&gt;
 
@@ -40,9 +47,15 @@
 
 &lt;p&gt;&lt;label for=&quot;solution&quot;&gt;Опис вашого рішення проблеми одним-двома реченнями, напр. «Доставка продуктів по підписці електросамокатами з самого ранку (свіжі продукти). Покупці знаходять продавців на нашому сайті, де є великий вибір (дешеві продукти, легко знайти). Покупці залишають відгук про продавця після покупки (якісні продукти).»: &lt;br /&gt; &lt;textarea id=&quot;solution&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;label&gt;Як часто виникає проблема? Кілька разів щодня чи один раз на все життя, і то не завжди? &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;label&gt;Чи стикалися ви з цією проблемою особисто? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;label&gt;Чи користуєтеся ви особисто вашим рішенням проблеми? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи маєте ви експертизу в галузі? Напр. 5-10 років досвіду. &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи ви захоплені тим, що робите? Чи робитимете ви це, навіть якщо вам ніхто за це не платитиме? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;label&gt;Чи говорили ви з потенційними клієнтами про проблему (не рішення)? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
@@ -50,9 +63,11 @@
 
 &lt;p&gt;&lt;label for=&quot;better_solution&quot;&gt;Напишіть 1-2 речення чому ваше рішення проблеми подобається вам чи користувачам більше ніж інші рішення. Напр. «Мені подобається отримувати свіжі продукти перед сніданком, не витрачаючи на це багато часу, і дешевше ніж на базарі.».&lt;br /&gt; &lt;textarea id=&quot;better_solution&quot; cols=&quot;60&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt; &lt;/label&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;label&gt;Чи можете ви створити ессе або презентацію по цій проблемі? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Чи можете ви створити есе або презентацію по цій проблемі? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;label&gt;Чи можете ви створити MVP власноруч? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Чи можете ви створити &lt;a href=&quot;https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%BD%D1%96%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE_%D0%B6%D0%B8%D1%82%D1%82%D1%94%D0%B7%D0%B4%D0%B0%D1%82%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82&quot;&gt;MVP&lt;/a&gt; власноруч? Це важливо щоб не втрачати час та гроші під час пошуку &lt;a href=&quot;https://en.wikipedia.org/wiki/Product/market_fit&quot;&gt;PMF&lt;/a&gt;. MVP — це щось, що приведе до дискусії з потенційними користувачами щодо характеристик продукту. &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи маєте ви якусь перевагу, яку не мають інші гравці на ринку? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;label&gt;Чи пробують потенційні покупці вирішити проблему вже? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
@@ -60,9 +75,13 @@
 
 &lt;p&gt;&lt;label&gt;Чи пробували ви продати рішення проблеми без MVP? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;label&gt;Чи люблять потенційні користувачі ваше рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Чи зацікавили ви родичів, друзів, знайомих своїм рішенням проблеми настільки, що вони користуються ним? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;label&gt;Чи ваше рішення вирішує проблему в 10 раз ефективніше чи дешевше ніж існуючі рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Який &lt;a href=&quot;https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8_%D1%81%D0%BF%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D1%87%D0%B0&quot;&gt;NPS&lt;/a&gt; у вашого продукту чи MVP? Від -100% (всі ненавидять ваш продукт) до +100% (всі закохані у ваш продукт). &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи люблять потенційні користувачі ваше рішення? Хоча б деякі. &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label&gt;Чи ваше рішення вирішує проблему в 10 раз ефективніше чи дешевше ніж наявні рішення? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;label&gt;Який обʼєм ринку? Введіть оцінку, напр. «1 мільярд гривень в місяць.» &lt;br /&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
@@ -76,7 +95,11 @@
 
 &lt;p&gt;&lt;label&gt;Чи буде продукт з усіма витратами, націнкою, та податками значно нижчий по ціні ніж у конкурентів? &lt;input type=&quot;checkbox&quot; /&gt; &lt;/label&gt;&lt;/p&gt;
 
-&lt;p&gt;Якщо ви маєте ще якісь питання, які допомогають у виборі ідеї, повідомте нам, будь ласка.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;PS.&lt;/p&gt;
+
+&lt;p&gt;Якщо ви маєте ще якісь питання, які допомагають у виборі ідеї, повідомте нам, будь ласка.&lt;/p&gt;
 </content>
  </entry>
  
@@ -85,7 +108,9 @@
    <link href="http://localhost:4000/2020/09/06/five-star-product/"/>
    <updated>2020-09-06T00:00:00+03:00</updated>
    <id>http://localhost:4000/2020/09/06/five-star-product</id>
-   <content type="html">&lt;p&gt;Дивлячись виступ засновників AirBnB перед студентами Стенфорду, я почув
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/images/2020-09-06-five-star-product.md.5579.png&quot; alt=&quot;20 балів з 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Дивлячись виступ засновників AirBnB перед студентами Стенфорду, я почув
 про цікавий механізм створення якісного продукту. Засновники назвали його
 «продукт на пʼять балів». Суть його в тому, що команда розробників
 продукту починає грати в гру, коли перша людина описує продукт «на один
@@ -94,14 +119,14 @@
 &lt;p&gt;Для прикладу, як про це розказували самі засновники AirBnB (Air Bed and
 Breakfast: надувне ліжко та сніданок).&lt;/p&gt;
 
-&lt;p&gt;Отже, AirBnB на 1 бал: людина прилітіє в інше місто, знаходить адресу, стукає
+&lt;p&gt;Отже, AirBnB на 1 бал: людина прилітає в інше місто, знаходить адресу, стукає
 у двері, їй відчиняє власник. Це продукт на 1 бал, тому що все що менше
 відвертатиме людей від сервісу.&lt;/p&gt;
 
 &lt;p&gt;AirBnB на 2 бали: це коли власник квартири зустрічає квартиронаймача у
-аєропорту, та везе прямо на квартиру.&lt;/p&gt;
+аеропорту, та везе прямо на квартиру.&lt;/p&gt;
 
-&lt;p&gt;AirBnB на 3 бали: це коли квартиронаймача зустрічає дорогий лімузін, в
+&lt;p&gt;AirBnB на 3 бали: це коли квартиронаймача зустрічає дорогий лімузин, в
 лімузині вже лежить пляшка улюбленого напою, в квартирі в холодильнику
 вже стоять улюблені продукти.&lt;/p&gt;
 
@@ -144,23 +169,25 @@ Breakfast: надувне ліжко та сніданок).&lt;/p&gt;
 Рахунок за опалення відсутній.&lt;/p&gt;
 
 &lt;p&gt;Слоноблок на 7 балів: у будинку вже є всі необхідні меблі, і можна
-відразу заїджати та жити.&lt;/p&gt;
+відразу заїжджати та жити.&lt;/p&gt;
 
-&lt;p&gt;Слоноблок на 8 балів: в холодильнку вже є продукти та напої, на ліжку
-застелена постіль, при вході стоять тапочки, в телевізорі вибраний
+&lt;p&gt;Слоноблок на 8 балів: в холодильнику вже є продукти та напої, на ліжку
+застелена постіль, при вході стоять шльопанці, в телевізорі вибраний
 улюблений канал, поруч з будинком стоїть будка для улюбленого собаки.&lt;/p&gt;
 
 &lt;p&gt;Слоноблок на 9 балів: будинок оздоблений так, як в улюбленому фільмі. На
-стінах висять геройскі обладунки. Перед будинком зустрічає обслуга, яка
+стінах висять геройські обладунки. Перед будинком зустрічає обслуга, яка
 бере ключі від машини та ставить її у гараж.&lt;/p&gt;
 
 &lt;p&gt;Слоноблок на 10 балів: будинок розроблений інженерами NASA за проєктом
-режисерів Голівуду. Знімальна група знімає кіно, і ви — головний герой,
+режисерів Голлівуду. Знімальна група знімає кіно, і ви — головний герой,
 точніше, супергерой.&lt;/p&gt;
 
 &lt;p&gt;І так далі.&lt;/p&gt;
 
 &lt;p&gt;Спробуйте придумати продукт на 5 балів для свого стартапу:&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;formgroup&gt;
 &lt;label for=&quot;product_1_star&quot;&gt;Продукт на 1 бал:&lt;/label&gt;&lt;br /&gt;
@@ -196,8 +223,6 @@ Breakfast: надувне ліжко та сніданок).&lt;/p&gt;
 &lt;label for=&quot;product_16_star&quot;&gt;Продукт на 16 балів:&lt;/label&gt;&lt;br /&gt;
 &lt;textarea id=&quot;product_16_star&quot; rows=&quot;2&quot; cols=&quot;40&quot;&gt;&lt;/textarea&gt;&lt;br /&gt;
 &lt;/formgroup&gt;
-
-&lt;p&gt;Автор: Володимир Лісівка&lt;/p&gt;
 </content>
  </entry>
  
@@ -206,7 +231,8 @@ Breakfast: надувне ліжко та сніданок).&lt;/p&gt;
    <link href="http://localhost:4000/2020/06/27/page-for-failed-ideas/"/>
    <updated>2020-06-27T00:00:00+03:00</updated>
    <id>http://localhost:4000/2020/06/27/page-for-failed-ideas</id>
-   <content type="html">&lt;style&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/images/2020-06-27-page-for-failed-ideas.md.388.png&quot; alt=&quot;Похоронена ідея&quot; /&gt;&lt;/p&gt;
+&lt;style&gt;
 .gplusbtn{
    position:relative;
    display:block;
@@ -351,13 +377,13 @@ Breakfast: надувне ліжко та сніданок).&lt;/p&gt;
 &lt;p&gt;Для стартапера, часто дуже важко розстатися зі своєю старою ідеєю, та
 почати працювати над новою. Люди емоційно привʼязуються до того, у що
 вклали багато праці, про що мають багато спогадів. Розставання зі старою
-ідеєю, це як прощання зі старим другом. Але, житя триває, треба рухатися
+ідеєю, це як прощання зі старим другом. Але, життя триває, треба рухатися
 уперед.&lt;/p&gt;
 
 &lt;p&gt;На цій сторінці можна офіційно розпрощатися зі своєю невдалою ідеєю, так
 би мовити «відпустити її», або офіційно розлучитися. Подивіться на цю
 магічну кнопку! Подивіться як вона крутиться! Після того як ви її
-натисните, стара ідея нарешті піде від вас. Принаймні ми на це
+натиснете, стара ідея нарешті піде від вас. Принаймні ми на це
 сподіваємося.&lt;/p&gt;
 
 &lt;p&gt;&lt;label for=&quot;idea&quot;&gt;Ідея стартапу:&lt;/label&gt;&lt;/p&gt;
@@ -366,8 +392,8 @@ function clear_idea() {
   var idea = document.getElementById(&quot;idea&quot;);
   idea.value = '';
 }
-&lt;/script&gt;&lt;textarea id=&quot;idea&quot; name=&quot;idea&quot; rows=&quot;4&quot; cols=&quot;40&quot; alt=&quot;Введіть текст вашої ідеї та натисність кнопку «FAIL».&quot; onfocus=&quot;clear_idea()&quot;&gt;
-Введіть текст вашої ідеї та натисність кнопку «FAIL»...
+&lt;/script&gt;&lt;textarea id=&quot;idea&quot; name=&quot;idea&quot; rows=&quot;4&quot; cols=&quot;40&quot; alt=&quot;Введіть текст вашої ідеї та натисніть кнопку «FAIL».&quot; onfocus=&quot;clear_idea()&quot;&gt;
+Введіть текст вашої ідеї та натисніть кнопку «FAIL»...
 &lt;/textarea&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a class=&quot;gplusbtn&quot; title=&quot;this is a button&quot; href=&quot;#&quot; onclick=&quot;clear_idea(); return false;&quot;&gt;
       &lt;span class=&quot;border&quot;&gt;

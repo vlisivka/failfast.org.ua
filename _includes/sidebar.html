@@ -9,7 +9,13 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Головна</a>
+
+    <a class="sidebar-nav-item" href="http://news.failfast.org.ua/">Новини</a>
+
+    <a class="sidebar-nav-item" href="http://news.failfast.org.ua/weekly">Звітування</a>
+
+    <a class="sidebar-nav-item" href="http://news.failfast.org.ua/pivot">Прощання з ідеями</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
