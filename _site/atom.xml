@@ -4,7 +4,7 @@
  <title>Fail fast</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-09-21T16:43:27+03:00</updated>
+ <updated>2020-09-21T16:46:01+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Володимир Лісівка</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Вибір ідеї для стартапа.</title>
-   <link href="http://localhost:4000/2020/09/15/how-to-chose-idea/"/>
+   <link href="http://localhost:4000/2020/09/15/how-to-choose-idea/"/>
    <updated>2020-09-15T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2020/09/15/how-to-chose-idea</id>
+   <id>http://localhost:4000/2020/09/15/how-to-choose-idea</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/public/images/2020-09-15-how-to-chose-idea.md.3816.png&quot; alt=&quot;Погані ідеї — хороші ідеї&quot; /&gt;
 Статаперам-початківцям часто важко знайти хорошу ідею, або вибрати одну ідею з багатьох.&lt;/p&gt;
 
