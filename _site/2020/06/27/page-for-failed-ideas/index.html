@@ -24,8 +24,14 @@
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.css">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.esm.js"></script>
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.css">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.esm.js"></script>
+
+  
 
   
   <script>
@@ -112,6 +118,7 @@
   <span class="post-author"></span>
   <span class="post-date">27 Jun 2020</span>
   <p><img src="/public/images/2020-06-27-page-for-failed-ideas.md.388.png" alt="Похоронена ідея" /></p>
+
 <style>
 .gplusbtn{
    position:relative;
@@ -260,13 +267,20 @@
 ідеєю, це як прощання зі старим другом. Але, життя триває, треба рухатися
 уперед.</p>
 
+<p>Наприклад я пробував підняти ідею електричного квадроцикла з кабінкою,
+яким можна їздити по місту, або який можна використовувати як мобільне
+джерело живлення для електроінструментів. Після 10-ти років спроб, я
+вирішив розстатися з ідеєю використовуючи цю форму. Я набрав ідею,
+натиснув кнопку, і вона зникла. І мені це допомогло.</p>
+
 <p>На цій сторінці можна офіційно розпрощатися зі своєю невдалою ідеєю, так
 би мовити «відпустити її», або офіційно розлучитися. Подивіться на цю
 магічну кнопку! Подивіться як вона крутиться! Після того як ви її
 натиснете, стара ідея нарешті піде від вас. Принаймні ми на це
 сподіваємося.</p>
 
-<p><label for="idea">Ідея стартапу:</label></p>
+<div><details> <summary>Кнопка</summary>
+<label for="idea">Ідея стартапу:</label>
 <div><script>
 function clear_idea() {
   var idea = document.getElementById("idea");
@@ -274,14 +288,14 @@ function clear_idea() {
 }
 </script><textarea id="idea" name="idea" rows="4" cols="40" alt="Введіть текст вашої ідеї та натисніть кнопку «FAIL»." onfocus="clear_idea()">
 Введіть текст вашої ідеї та натисніть кнопку «FAIL»...
-</textarea></div>
-<div><a class="gplusbtn" title="this is a button" href="#" onclick="clear_idea(); return false;">
+</textarea></div><div><a class="gplusbtn" title="this is a button" href="#" onclick="clear_idea(); return false;">
       <span class="border">
       </span>
       <span class="button">
          <span class="button-inner">FAIL</span>
       </span>
 </a></div>
+</details></div>
 
 </div>
 
@@ -289,6 +303,15 @@ function clear_idea() {
 <div class="related">
   <h2>Related posts</h2>
   <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2020/10/17/how_to_chose_right_metric/">
+            Як вибрати правильну метрику для стартапа
+            <small>17 Oct 2020</small>
+          </a>
+        </h3>
+      </li>
     
       <li>
         <h3>
@@ -302,7 +325,7 @@ function clear_idea() {
       <li>
         <h3>
           <a href="/2020/09/06/five-star-product/">
-            Продукт на пʼять балів.
+            Продукт на пять балів.
             <small>06 Sep 2020</small>
           </a>
         </h3>
