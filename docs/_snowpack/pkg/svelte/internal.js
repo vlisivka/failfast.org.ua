@@ -104,6 +104,9 @@ function detach(node) {
 function element(name) {
   return document.createElement(name);
 }
+function text(data) {
+  return document.createTextNode(data);
+}
 function attr(node, attribute, value) {
   if (value == null)
     node.removeAttribute(attribute);
@@ -289,4 +292,4 @@ class SvelteComponent {
   }
 }
 
-export { SvelteComponent, attr, detach, element, init, insert, noop, safe_not_equal };
+export { SvelteComponent, attr, detach, element, init, insert, noop, safe_not_equal, text };

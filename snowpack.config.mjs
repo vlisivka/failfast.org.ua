@@ -7,6 +7,7 @@ export default {
   },
   plugins: [
     '@snowpack/plugin-svelte',
+    ["snowpack-plugin-mdsvex", { /* see "Plugin Options" below */ }],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

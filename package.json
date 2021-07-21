@@ -6,7 +6,9 @@
   },
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.7.0",
-    "snowpack": "^3.3.7"
+    "mdsvex": "^0.9.8",
+    "snowpack": "^3.3.7",
+    "snowpack-plugin-mdsvex": "^0.2.2"
   },
   "dependencies": {
     "svelte": "^3.39.0"
