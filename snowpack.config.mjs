@@ -23,6 +23,6 @@ export default {
   },
   buildOptions: {
     /* ... */
-    out: "./_site",
+    out: "./docs",
   },
 };
