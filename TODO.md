@@ -1,3 +1,6 @@
 * [x] Add support for Markdown
-* [ ] Implement a blog again.
-* [ ] Rewrite an article to be interactive.
+* [x] Implement a blog again.
+* [x] Rewrite an article to be interactive.
+* [ ] Cleanup site.
+* [ ] Use svelte-chota for interface.
+* [ ] Create front page.

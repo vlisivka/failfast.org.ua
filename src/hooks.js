@@ -46,36 +46,12 @@ const hooks = [
       // It is just executed on the 'bootstrap' hook which runs once when Elder.js is starting.
 
       // copy assets folder to public destination
-      glob.sync(path.resolve(settings.rootDir, './assets/**/*')).forEach((file) => {
-        const parsed = path.parse(file);
-        // Only write the file/folder structure if it has an extension
-        if (parsed.ext && parsed.ext.length > 0) {
-          const relativeToAssetsFolder = path.relative(path.join(settings.rootDir, './assets'), file);
-          const outputPath = path.resolve(settings.distDir, relativeToAssetsFolder);
-          fs.ensureDirSync(path.parse(outputPath).dir);
-          fs.outputFileSync(outputPath, fs.readFileSync(file));
-        }
+      glob.sync(path.resolve(settings.rootDir, './assets/**/*'), {dot: true, nodir: true}).forEach((file) => {
+        const relativeToAssetsFolder = path.relative(path.join(settings.rootDir, './assets'), file);
+        const outputPath = path.resolve(settings.distDir, relativeToAssetsFolder);
+        fs.ensureDirSync(path.parse(outputPath).dir);
+        fs.outputFileSync(outputPath, fs.readFileSync(file));
       });
-    },
-  },
-
-  {
-    hook: 'bootstrap',
-    name: 'copyCnameToPublic',
-    description:
-      'Copies ./CNAME to the "distDir" defined in the elder.config.js.',
-    run: ({ settings }) => {
-      fs.outputFileSync(path.resolve(settings.distDir, 'CNAME'), fs.readFileSync(path.resolve(settings.rootDir, './CNAME')));
-    },
-  },
-
-  {
-    hook: 'bootstrap',
-    name: 'createNojekyllInPublic',
-    description:
-      'Create ./.nojekyll in the "distDir" defined in the elder.config.js.',
-    run: ({ settings }) => {
-      fs.closeSync(fs.openSync(path.resolve(settings.distDir, '.nojekyll'), 'w'));
     },
   },
 
