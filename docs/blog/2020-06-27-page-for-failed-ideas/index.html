@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="uk"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Прощання з ідеями</title><meta name="description" content="Як попращатися з ідеєю стартапа, яка не дає вам спокою." data-svelte="svelte-1m33ocn"><link href="/blog/2020-06-27-page-for-failed-ideas/" rel="canonical" data-svelte="svelte-1m33ocn"><link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css" class="svelte-1tkpvyy" data-svelte="svelte-hprhv2"><link rel="stylesheet" href="/_elderjs/assets/svelte-9e1a324b.css" media="all" /><style></style></head><body class="blog">
+<!DOCTYPE html><html lang="uk"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Прощання з ідеями</title><meta name="description" content="Як попращатися з ідеєю стартапа, яка не дає вам спокою." data-svelte="svelte-1m33ocn"><link href="/blog/2020-06-27-page-for-failed-ideas/" rel="canonical" data-svelte="svelte-1m33ocn"><link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css" class="svelte-1tkpvyy" data-svelte="svelte-hprhv2"><link rel="stylesheet" href="/_elderjs/assets/svelte-b7d43762.css" media="all" /><style></style></head><body class="blog">
 
 <div class="container svelte-1tkpvyy"><!-- HTML_TAG_START -->
 <a href="/">← Home</a>
@@ -20,19 +20,22 @@
    border-radius:150px;
    text-decoration:none;
    color:#fff;
+   box-sizing: content-box;
 }
 
 .gplusbtn:hover,.gplusbtn:active{
    text-decoration:underline;
    color:#fff;
+   box-sizing: content-box;
 }
 
 .gplusbtn span{
    display:block;
    cursor:pointer;
+   box-sizing: content-box;
 }
 
-.gplusbtn .border{
+.gplusbtn .gborder{
    position:absolute;
    z-index:1;
    top:50px;
@@ -61,9 +64,10 @@
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out;
    behavior:url(pie.htc);
+   box-sizing: content-box;
 }
 
-.gplusbtn .button{
+.gplusbtn .gbutton{
    position:absolute;
    z-index:2;
    top:75px;
@@ -79,8 +83,9 @@
    -moz-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
+   box-sizing: content-box;
 }
-.gplusbtn .button .button-inner{
+.gplusbtn .gbutton .gbutton-inner{
    position:absolute;
    top:14px;
    left:14px;
@@ -106,9 +111,10 @@
    -moz-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
+   box-sizing: content-box;
 }
 
-.gplusbtn:hover .border{
+.gplusbtn:hover .gborder{
    top:0;
    left:0;
    width:260px;
@@ -116,8 +122,9 @@
    -webkit-border-radius:150px;
    -moz-border-radius:150px;
    border-radius:150px;
+   box-sizing: content-box;
 }
-.gplusbtn:hover .button{
+.gplusbtn:hover .gbutton{
    top:30px;
    left:30px;
    width:238px;
@@ -126,8 +133,9 @@
    -webkit-border-radius:120px;
    -moz-border-radius:120px;
    border-radius:120px;
+   box-sizing: content-box;
 }
-.gplusbtn:hover .button .button-inner{
+.gplusbtn:hover .gbutton .gbutton-inner{
    top:5px;
    left:5px;
    color:#fff;
@@ -136,6 +144,7 @@
    -webkit-border-radius:120px;
    -moz-border-radius:120px;
    border-radius:120px;
+   box-sizing: content-box;
 }
 
 
@@ -172,10 +181,10 @@ function clear_idea() {
 }
 </script><textarea id="idea" name="idea" rows="4" cols="40" alt="Введіть текст вашої ідеї та натисніть кнопку «FAIL»." onfocus="clear_idea()">Введіть текст вашої ідеї та натисніть кнопку «FAIL»...
 </textarea></div><div><a class="gplusbtn" title="this is a button" href="#" onclick="clear_idea(); return false;">
-      <span class="border">
+      <span class="gborder">
       </span>
-      <span class="button">
-         <span class="button-inner">FAIL</span>
+      <span class="gbutton">
+         <span class="gbutton-inner">FAIL</span>
       </span>
 </a></div>
 </details></div><!-- HTML_TAG_END --><!-- HTML_TAG_END --></div>

@@ -4,3 +4,4 @@
 * [ ] Cleanup site.
 * [ ] Use svelte-chota for interface.
 * [ ] Create front page.
+* [ ] Fix input field legends to show properly with Chota.

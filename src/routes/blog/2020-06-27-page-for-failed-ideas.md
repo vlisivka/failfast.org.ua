@@ -21,19 +21,22 @@ author: 'Володимир М. Лісівка'
    border-radius:150px;
    text-decoration:none;
    color:#fff;
+   box-sizing: content-box;
 }
 
 .gplusbtn:hover,.gplusbtn:active{
    text-decoration:underline;
    color:#fff;
+   box-sizing: content-box;
 }
 
 .gplusbtn span{
    display:block;
    cursor:pointer;
+   box-sizing: content-box;
 }
 
-.gplusbtn .border{
+.gplusbtn .gborder{
    position:absolute;
    z-index:1;
    top:50px;
@@ -62,9 +65,10 @@ author: 'Володимир М. Лісівка'
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out;
    behavior:url(pie.htc);
+   box-sizing: content-box;
 }
 
-.gplusbtn .button{
+.gplusbtn .gbutton{
    position:absolute;
    z-index:2;
    top:75px;
@@ -80,8 +84,9 @@ author: 'Володимир М. Лісівка'
    -moz-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,background 0.6s ease-in;
+   box-sizing: content-box;
 }
-.gplusbtn .button .button-inner{
+.gplusbtn .gbutton .gbutton-inner{
    position:absolute;
    top:14px;
    left:14px;
@@ -107,9 +112,10 @@ author: 'Володимир М. Лісівка'
    -moz-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
    -o-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
    -ms-transition:width 0.5s ease-in-out,height 0.5s ease-in-out,-webkit-border-radius 0.5s ease-in-out,border-radius 0.5s ease-in-out,top 0.5s ease-in-out,left 0.5s ease-in-out,border-width 0.5s ease-in-out;
+   box-sizing: content-box;
 }
 
-.gplusbtn:hover .border{
+.gplusbtn:hover .gborder{
    top:0;
    left:0;
    width:260px;
@@ -117,8 +123,9 @@ author: 'Володимир М. Лісівка'
    -webkit-border-radius:150px;
    -moz-border-radius:150px;
    border-radius:150px;
+   box-sizing: content-box;
 }
-.gplusbtn:hover .button{
+.gplusbtn:hover .gbutton{
    top:30px;
    left:30px;
    width:238px;
@@ -127,8 +134,9 @@ author: 'Володимир М. Лісівка'
    -webkit-border-radius:120px;
    -moz-border-radius:120px;
    border-radius:120px;
+   box-sizing: content-box;
 }
-.gplusbtn:hover .button .button-inner{
+.gplusbtn:hover .gbutton .gbutton-inner{
    top:5px;
    left:5px;
    color:#fff;
@@ -137,6 +145,7 @@ author: 'Володимир М. Лісівка'
    -webkit-border-radius:120px;
    -moz-border-radius:120px;
    border-radius:120px;
+   box-sizing: content-box;
 }
 
 
@@ -178,10 +187,10 @@ function clear_idea() {
 </script><textarea id="idea" name="idea" rows="4" cols="40" alt="Введіть текст вашої ідеї та натисніть кнопку «FAIL»." onfocus="clear_idea()">
 Введіть текст вашої ідеї та натисніть кнопку «FAIL»...
 </textarea></div><div><a class="gplusbtn" title="this is a button" href="#" onclick="clear_idea(); return false;">
-      <span class="border">
+      <span class="gborder">
       </span>
-      <span class="button">
-         <span class="button-inner">FAIL</span>
+      <span class="gbutton">
+         <span class="gbutton-inner">FAIL</span>
       </span>
 </a></div>
 </details></div>

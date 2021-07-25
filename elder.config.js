@@ -52,7 +52,7 @@ module.exports = {
     },
     '@elderjs/plugin-browser-reload': {
       // this reloads your browser when nodemon restarts your server.
-      port: 8080,
+      port: 3080,
       reload: false, // if you are having issues with reloading not working, change to true.
     },
     '@elderjs/plugin-seo-check': {

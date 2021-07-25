@@ -45,6 +45,7 @@
     "@babel/runtime": "^7.13.10",
     "@elderjs/plugin-sitemap": "^1.1.6",
     "autoprefixer": "^10.2.5",
+    "chota": "^0.8.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -57,7 +58,8 @@
     "rehype-raw": "^5.1.0",
     "remark-math": "^4.0.0",
     "remark-rehype": "^8.1.0",
-    "rollup": "^2.41.1"
+    "rollup": "^2.41.1",
+    "svelte-chota": "^1.8.4"
   },
   "author": "Nick Reese",
   "license": "MIT",
