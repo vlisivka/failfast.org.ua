@@ -169,7 +169,7 @@ author: 'Володимир М. Лісівка'
 яким можна їздити по місту, або який можна використовувати як мобільне
 джерело живлення для електроінструментів. Після 10-ти років спроб, я
 вирішив розстатися з ідеєю використовуючи цю форму. Я набрав ідею,
-натиснув кнопку, і вона зникла. І мені це допомогло.
+натиснув кнопку, і ... вона зникла. І мені це допомогло.
 
 На цій сторінці можна офіційно розпрощатися зі своєю невдалою ідеєю, так
 би мовити «відпустити її», або офіційно розлучитися. Подивіться на цю
@@ -186,7 +186,7 @@ function clear_idea() {
 }
 </script><textarea id="idea" name="idea" rows="4" cols="40" alt="Введіть текст вашої ідеї та натисніть кнопку «FAIL»." onfocus="clear_idea()">
 Введіть текст вашої ідеї та натисніть кнопку «FAIL»...
-</textarea></div><div><a class="gplusbtn" title="this is a button" href="#" onclick="clear_idea(); return false;">
+</textarea></div><div><a class="gplusbtn" title="this is a button" href="/" onclick="clear_idea(); return false;">
       <span class="gborder">
       </span>
       <span class="gbutton">
