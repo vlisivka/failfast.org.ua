@@ -1,4 +1,5 @@
 <script>
+  import 'highlight.js/styles/github.css';
   export let data, request; // data is mainly being populated from the @elderjs/plugin-markdown
   const { html, frontmatter } = data;
 </script>

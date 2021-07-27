@@ -1,14 +1,19 @@
 require('dotenv').config();
 
-const frontmatter = require('remark-frontmatter');
-const extractFrontmatter = require('remark-extract-frontmatter');
+const remarkFrontmatter = require('remark-frontmatter');
+const remarkExtractFrontmatter = require('remark-extract-frontmatter');
 const yaml = require('yaml');
 const remarkSlug = require('remark-slug');
 const remarkHtml = require('remark-html');
 const rawHtml = require('rehype-raw');
 const remarkMath = require('remark-math');
+const remarkMermaid = require('remark-mermaid-dataurl');
+const remarkGfm = require('remark-gfm');
+const remarkFootnotes = require('remark-footnotes');
+const remarkHighlight = require('remark-highlight.js');
 const remark2rehype = require('remark-rehype');
 const rehypeMathJax = require('rehype-mathjax');
+const rehypeToc = require("@jsdevtools/rehype-toc");
 const rehypeStringify = require('rehype-stringify');
 
 module.exports = {
@@ -39,14 +44,19 @@ module.exports = {
       routes: ['blog'],
       useTableOfContents: true,
       remarkPlugins: [
-        frontmatter,
-        [extractFrontmatter, { name: 'frontmatter', yaml: yaml.parse }],
+        remarkFrontmatter,
+        [remarkExtractFrontmatter, { name: 'frontmatter', yaml: yaml.parse }],
+        remarkMermaid,
+        remarkHighlight,
+        remarkGfm,
+        remarkFootnotes,
         remarkSlug,
         [remarkHtml, {sanitize: false}],
         remarkMath,
         [remark2rehype, {allowDangerousHtml: true}],
         rawHtml,
         rehypeMathJax,
+        rehypeToc,
         rehypeStringify,
       ],
     },
