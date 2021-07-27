@@ -1,11 +1,14 @@
 ---
-title: 'Як вибрати правильну метрику для стартапа'
-author: 'Володимир Лісівка'
+title: Як вибрати правильну метрику для стартапа
+author: Володимир Лісівка
 comments: true
 usemathjax: true
-excerpt: 'Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога.'
-date: '2020-10-17T13:35:07'
+excerpt: Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога.
+date: 2020-10-17T13:35:07
+thumb: /public/images/thumbs/2020-10-17-how_to_chose_right_metric.md.755_t.png
 ---
+
+![Графік зростання стартапа - клюшка](/public/images/2020-10-17-how_to_chose_right_metric.md.755.png)
 
 ## Спочатку розберемося що таке стартап
 
@@ -43,10 +46,10 @@ $$
 років.
 
 <div><details><summary>Спробуйте самі:</summary>
-<label>Початкова вартість, P: <input id="starting_price" type="text" placeholder="Початкова вартість" title="Початкова вартість компанії (10x від прибутку)" size="15" onchange="update_growth()"></label>
-<label>Ріст у тиждень, G (%): <input id="growth_rate" type="text" placeholder="Ріст" title="Ріст у тиждень" size="4" onchange="update_growth()"></label>
-<label>Кількість років, T: <input id="years_of_growth" type="text" placeholder="Роки" title="Кількість років стабільного росту" size="4" onchange="update_growth()"></label>
-<label>Кінцева ціна, P*(G^T): <input id="ending_price" type="text" placeholder="Кінцева вартість" title="Кінцева вартість компанії" size="20" readonly></label>
+<label>Початкова вартість, P: <input id="starting_price" type="text" placeholder="Початкова вартість" title="Початкова вартість компанії (10x від прибутку)" size="15" onchange="update_growth()"></label><br/>
+<label>Ріст у тиждень, G (%): <input id="growth_rate" type="text" placeholder="Ріст" title="Ріст у тиждень" size="4" onchange="update_growth()"></label><br/>
+<label>Кількість років, T: <input id="years_of_growth" type="text" placeholder="Роки" title="Кількість років стабільного росту" size="4" onchange="update_growth()"></label><br/>
+<label>Кінцева ціна, P*(G^T): <input id="ending_price" type="text" placeholder="Кінцева вартість" title="Кінцева вартість компанії" size="20" readonly></label><br/>
 <script>
 function update_growth() {
   var starting_price = parseFloat(document.getElementById("starting_price").value.replace(',','.'), 10);
@@ -102,10 +105,10 @@ $$
 $$
 
 <div><details><summary>Спробуйте порахувати:</summary>
-<label>Ціна: <input id="Z" type="text" placeholder="Ціна" title="Ціна продажу" size="9" onchange="update_profit()"></label>
-<label>Собівартість: <input id="X" type="text" placeholder="Собівартість" title="Орієнтовна собівартість" size="9" onchange="update_profit()"></label>
-<label>Продажі, штук: <input id="Y" type="text" placeholder="Продажі" title="Кількість потенційних продаж у рік" size="9" onchange="update_profit()"></label>
-<label>Прибуток: <input id="profit" type="text" placeholder="Прибуток" title="Річний прибуток компанії" size="18" readonly></label>
+<label>Ціна: <input id="Z" type="text" placeholder="Ціна" title="Ціна продажу" size="9" onchange="update_profit()"></label><br/>
+<label>Собівартість: <input id="X" type="text" placeholder="Собівартість" title="Орієнтовна собівартість" size="9" onchange="update_profit()"></label><br/>
+<label>Продажі, штук: <input id="Y" type="text" placeholder="Продажі" title="Кількість потенційних продаж у рік" size="9" onchange="update_profit()"></label><br/>
+<label>Прибуток: <input id="profit" type="text" placeholder="Прибуток" title="Річний прибуток компанії" size="18" readonly></label><br/>
 <script>
 function update_profit() {
   var X = parseFloat(document.getElementById("X").value.replace(',','.'), 10);
@@ -226,10 +229,10 @@ $$
 Тобто вам доведеться створити чотири єдинороги комусь іншому, перш ніж ви створите єдиноріг для себе.
 
 <div><details><summary>Спробуйте самі:</summary>
-<label>Ціна за потенційного клієнта: <input id="ad_price" type="text" placeholder="Ціна" title="Ціна за відвідувача" size="5" onchange="update_ad_cost()"></label>
-<label>Відсоток клієнтів від потенційних клієнтів: <input id="filter_rate" type="text" placeholder="Лійка" title="Кількість клієнтів після лійки продаж" size="4" onchange="update_ad_cost()"></label>
-<label>Загальні продажі за всі роки: <input id="total_sales" type="text" placeholder="Продажі" title="Загальна кількість продаж за всі роки до створення єдинорога" size="9" onchange="update_ad_cost()"></label>
-<label>Загальна вартість реклами за всі роки: <input id="ad_cost" type="text" placeholder="Вартість реклами" title="Загальна вартість реклами" size="20" readonly></label>
+<label>Ціна за потенційного клієнта: <input id="ad_price" type="text" placeholder="Ціна" title="Ціна за відвідувача" size="5" onchange="update_ad_cost()"></label><br/>
+<label>Відсоток клієнтів від потенційних клієнтів: <input id="filter_rate" type="text" placeholder="Лійка" title="Кількість клієнтів після лійки продаж" size="4" onchange="update_ad_cost()"></label><br/>
+<label>Загальні продажі за всі роки: <input id="total_sales" type="text" placeholder="Продажі" title="Загальна кількість продаж за всі роки до створення єдинорога" size="9" onchange="update_ad_cost()"></label><br/>
+<label>Загальна вартість реклами за всі роки: <input id="ad_cost" type="text" placeholder="Вартість реклами" title="Загальна вартість реклами" size="20" readonly></label><br/>
 <script>
 function update_ad_cost() {
   var ad_price = parseFloat(document.getElementById("ad_price").value.replace(',','.'), 10);
@@ -290,30 +293,30 @@ function update_ad_cost() {
 
 <div><details><summary>Спробуйте самі:</summary>
 <label>Поширювачі (відсоток надзвичайно задоволених клієнтів):
-<input id="promouters" type="text" title="Відсоток надзвичайно задоволених клієнтів" size="4" onchange="update_nps()"> </label>
+<input id="promouters" type="text" title="Відсоток надзвичайно задоволених клієнтів" size="4" onchange="update_nps()"> </label><br/>
 <label>Відлякувачі (відсоток незадоволених клієнтів):
-<input id="detractors" type="text" title="Відсоток незадоволених клієнтів" size="4" onchange="update_nps()" value="5"></label>
+<input id="detractors" type="text" title="Відсоток незадоволених клієнтів" size="4" onchange="update_nps()" value="5"></label><br/>
 <label>Притягування (скільки клієнтів приводить надзвичайно задоволений клієнт):
-<input id="promouter_koef" type="text" title="Скільки клієнтів приводить надзвичайно задоволений клієнт" size="4" value="3" onchange="update_nps()"></label>
+<input id="promouter_koef" type="text" title="Скільки клієнтів приводить надзвичайно задоволений клієнт" size="4" value="3" onchange="update_nps()"></label><br/>
 <label>За скільки тижнів:
-<input id="promouter_weeks" type="text" title="За скільки тижнів в середньому приводить нових клієнтів надзвичайно задоволений клієнт" size="4" value="26" onchange="update_nps()"> </label>
+<input id="promouter_weeks" type="text" title="За скільки тижнів в середньому приводить нових клієнтів надзвичайно задоволений клієнт" size="4" value="26" onchange="update_nps()"> </label><br/>
 <label>Відлякування (Скільки клієнтів відлякує незадоволений клієнт):
-<input id="detractor_koef" type="text" title="Скільки клієнтів відлякує незадоволений клієнт" size="4" value="10" onchange="update_nps()"></label>
-<label>За скільки тижнів <input id="detractor_weeks" type="text" title="За скільки тижнів в середньому приводить нових клієнтів надзвичайно задоволений клієнт" size="4" value="26" onchange="update_nps()"> </label>
+<input id="detractor_koef" type="text" title="Скільки клієнтів відлякує незадоволений клієнт" size="4" value="10" onchange="update_nps()"></label><br/>
+<label>За скільки тижнів <input id="detractor_weeks" type="text" title="За скільки тижнів в середньому приводить нових клієнтів надзвичайно задоволений клієнт" size="4" value="26" onchange="update_nps()"></label><br/>
 <label>NPS (Net Promoter Score, Оцінка чистих поширювачів), на скільки поширювачів більше ніж відлякувачів:
-<input id="nps" type="text" placeholder="NPS" title="Net Promoter Score, Оцінка чистих поширювачів" size="20" readonly>%<br/> </label>
+<input id="nps" type="text" placeholder="NPS" title="Net Promoter Score, Оцінка чистих поширювачів" size="20" readonly></label><br/>
 <label>APS (Adjusted Promoter Score, чистий приплив клієнтів), на скільки більше клієнтів приводят ніж відлякують в цілому:
-<input id="aps" type="text" placeholder="APS" title="Adjusted Promoter Score, Зважена оцінка поширювачів" size="20" readonly><br/> </label>
+<input id="aps" type="text" placeholder="APS" title="Adjusted Promoter Score, Зважена оцінка поширювачів" size="20" readonly></label><br/>
 <label>AW% (APS per Week), очікуваний чистий приплив клієнтів за тиждень:
-<input id="aw" type="text" placeholder="AW" title="APS per Week, APS за тиждень" size="20" readonly><br/> </label>
+<input id="aw" type="text" placeholder="AW" title="APS per Week, APS за тиждень" size="20" readonly></label><br/>
 <label>Очікувана кількість нових клієнтів за 1 рік починаючи з 1:
-<input id="num_of_clients_in_1_y" type="text" placeholder="к. клієнтів через 1 р" title="Очікувана кількість клієнтів через 1 рік" size="20" readonly><br/> </label>
+<input id="num_of_clients_in_1_y" type="text" placeholder="к. клієнтів через 1 р" title="Очікувана кількість клієнтів через 1 рік" size="20" readonly></label><br/>
 <label>Очікувана кількість нових клієнтів за 3 роки починаючи з 1:
-<input id="num_of_clients_in_3_y" type="text" placeholder="к. клієнтів через 3 р" title="Очікувана кількість клієнтів через 3 роки" size="20" readonly><br/> </label>
+<input id="num_of_clients_in_3_y" type="text" placeholder="к. клієнтів через 3 р" title="Очікувана кількість клієнтів через 3 роки" size="20" readonly></label><br/>
 <label>Очікувана кількість нових клієнтів за 5 років починаючи з 1:
-<input id="num_of_clients_in_5_y" type="text" placeholder="к. клієнтів через 5 р" title="Очікувана кількість клієнтів через 5 років" size="20" readonly><br/> </label>
+<input id="num_of_clients_in_5_y" type="text" placeholder="к. клієнтів через 5 р" title="Очікувана кількість клієнтів через 5 років" size="20" readonly></label><br/>
 <label>Очікувана кількість нових клієнтів за 10 років починаючи з 1:
-<input id="num_of_clients_in_10_y" type="text" placeholder="к. клієнтів через 10 р" title="Очікувана кількість клієнтів через 10 років" size="20" readonly><br/> </label>
+<input id="num_of_clients_in_10_y" type="text" placeholder="к. клієнтів через 10 р" title="Очікувана кількість клієнтів через 10 років" size="20" readonly></label><br/>
 <script>
 function n(formatter, val) {
   if (!isNaN(val)) {

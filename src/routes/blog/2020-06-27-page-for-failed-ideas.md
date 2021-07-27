@@ -1,9 +1,10 @@
 ---
-title: 'Прощання з ідеями'
+title: Прощання з ідеями
 comments: true
-excerpt: 'Як попращатися з ідеєю стартапа, яка не дає вам спокою.'
-date: '2020-06-27T18:35:07'
-author: 'Володимир М. Лісівка'
+excerpt: Як попрощатися з ідеєю стартапа, яка не дає вам спокою.
+date: 2020-06-27T18:35:07
+author: Володимир М. Лісівка
+thumb: /public/images/thumbs/2020-06-27-page-for-failed-ideas.md.388_t.png
 ---
 
 ![Похоронена ідея](/public/images/2020-06-27-page-for-failed-ideas.md.388.png)

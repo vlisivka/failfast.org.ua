@@ -47,11 +47,11 @@
 </style>
 
 <svelte:head>
-  <title>{frontmatter.title}</title>
+  <title>Fail Fast: {frontmatter.title}</title>
   <meta name="description" content={frontmatter.excerpt} />
   <link href={request.permalink} rel="canonical" />
 </svelte:head>
-<a href="/">&LeftArrow; Home</a>
+<a href="/">&LeftArrow; На головну</a>
 
 <div class="title">
   <h1>{frontmatter.title}</h1>

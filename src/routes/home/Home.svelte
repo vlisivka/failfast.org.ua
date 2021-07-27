@@ -9,6 +9,7 @@
     background: #eee;
     border-radius: 2rem;
     margin-bottom: 1rem;
+    align: center;
   }
   .entries {
     display: grid;
@@ -64,7 +65,7 @@
 </svelte:head>
 
 <div class="banner">
-  <h1>Fail Fast: помиляйся часто, помиляйся швидко, помиляйся дешево</h1>
+  <h1>Fail Fast: помиляйся часто, швидко, дешево</h1>
 </div>
 
 <div class="blog">
