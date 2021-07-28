@@ -4,6 +4,7 @@ comments: true
 excerpt: Cторінка для тестування mermaid, gfm, ремарок.
 date: 2021-08-27T16:00:21
 author: Володимир М. Лісівка
+thumb: https://placekitten.com/160/120
 ---
 
 ## Основний синтаксис Markdown
