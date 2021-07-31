@@ -6,7 +6,7 @@
 </script>
 
 <div style="width:300px; padding: 1em; max-width:300px;">
-<Card>
+<Card style="height:100%">
   <div slot="thumb"><img src={blog.frontmatter.thumb} alt="Thumbnail for blog post" style="width: 100%"/></div>
   <div slot="header"><h4><a href={helpers.permalinks.blog({ slug: blog.slug })}>{blog.frontmatter.title}</a></h4></div>
   <p>{blog.frontmatter.excerpt}</p>
