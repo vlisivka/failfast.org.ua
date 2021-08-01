@@ -4,13 +4,13 @@
 </script>
 
 <div class:card={1} use:events {...$$restProps}>
-{#if $$slots.header}
-  <div>
+{#if $$slots.thumb}
+  <div style="text-align: center;">
     <slot name="thumb"></slot>
   </div>
 {/if}
-{#if $$slots.thumb}
-  <header>
+{#if $$slots.header}
+  <header style="text-align: center;">
     <slot name="header"></slot>
   </header>
 {/if}
