@@ -1,0 +1,3 @@
+Sitemap: https://failfast.org.ua/sitemap.xml
+User-agent: *
+Disallow:
