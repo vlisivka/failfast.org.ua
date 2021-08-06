@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="pikchr" viewBox="0 0 622.719 190.786">
+<text x="33" y="79" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="156.25%" dominant-baseline="central">💡</text>
+<text x="33" y="107" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="125%" dominant-baseline="central">Ідея</text>
+<polygon points="215,95 198,101 198,88" style="fill:rgb(0,0,0)"/>
+<path d="M71,95L206,95" style="fill:none;stroke-width:3.24;stroke:rgb(0,0,0);"/>
+<text x="143" y="82" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"/>
+<text x="143" y="105" text-anchor="middle" fill="rgb(0,0,0)" font-size="80%" dominant-baseline="central">30 раз</text>
+<text x="274" y="79" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="156.25%" dominant-baseline="central">⚙⛯⚙</text>
+<text x="274" y="107" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="125%" dominant-baseline="central">Працює?</text>
+<polygon points="478,95 460,101 460,88" style="fill:rgb(0,0,0)"/>
+<path d="M334,95L469,95" style="fill:none;stroke-width:3.24;stroke:rgb(0,0,0);"/>
+<text x="406" y="75" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" dominant-baseline="central">Так</text>
+<text x="406" y="95" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"/>
+<text x="406" y="115" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"/>
+<text x="552" y="79" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="156.25%" dominant-baseline="central">💰💸💰</text>
+<text x="552" y="105" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" dominant-baseline="central">Прибуткове?</text>
+<polygon points="33,58 29,47 38,47" style="fill:rgb(0,0,0)"/>
+<path d="M274,58L274,2L33,2L33,53" style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);"/>
+<text x="274" y="40" text-anchor="start" font-weight="bold" fill="rgb(0,0,0)" dominant-baseline="central"> Ні</text>
+<path d="M552,58L552,2L274,2" style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);"/>
+<text x="552" y="40" text-anchor="start" font-weight="bold" fill="rgb(0,0,0)" dominant-baseline="central"> Ні</text>
+<polygon points="33,131 38,143 29,143" style="fill:rgb(0,0,0)"/>
+<path d="M552,131L552,188L33,188L33,137" style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);"/>
+<text x="293" y="171" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" dominant-baseline="central">Реінвестуй</text>
+</svg>
