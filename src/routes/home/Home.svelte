@@ -1,5 +1,6 @@
 <script>
   import BlogTeaser from '../../components/BlogTeaser.svelte';
+  import SvelteSeo from "svelte-seo";
   export let data, helpers;
 </script>
 
@@ -58,11 +59,40 @@
   }
 </style>
 
+<!-- See
+  https://github.com/artiebits/svelte-seo
+  https://developers.google.com/search/docs/advanced/appearance/overview
+  https://developers.google.com/search/docs/data-types/article
+  https://search.google.com/test/rich-results
+  https://ogp.me/
+-->
 <svelte:head>
-  <title>Fail Fast</title>
-  <meta name="description" content="Fail Fast: сайт спільноти українських стартаперів" />
-  <link href="/" rel="canonical" />
+<meta property="og:locale" content="uk_UA" />
 </svelte:head>
+<SvelteSeo
+  title="Fail Fast"
+  description="Fail Fast: сайт спільноти українських стартаперів"
+  keywords="startup ukrainian український стартап"
+  canonical="/"
+
+  openGraph={{
+    type:"website",
+    title:"Fail Fast",
+    description:"Fail Fast",
+    url:"https://vlisivka.github.io/",
+    images: [
+      { url: 'https://failfast.org.ua/public/images/failfast.jpg', alt: 'Помиляйся часто, швидко, дешево' }
+    ]
+  }}
+
+  twitter={{
+    //site: "@username",
+    title: "Fail Fast",
+    description: "Fail Fast: сайт спільноти українських стартаперів",
+    image: "https://failfast.org.ua/public/images/failfast.jpg",
+    imageAlt: "Помиляйся часто, швидко, дешево"
+  }}
+/>
 
 <div class="banner">
   <h1>Fail Fast: помиляйся часто, швидко, дешево</h1>

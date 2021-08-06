@@ -3,8 +3,9 @@ title: Вибір ідеї для стартапа
 author: Володимир Лісівка
 comments: true
 excerpt: Як вибрати ідею для свого нового стартапу, а від яких краще відмовитися.
-date: 2020-06-27T18:35:07
+date: 2020-06-27T18:35:07+3000
 thumb: /public/images/thumbs/2020-09-15-how-to-chose-idea.md.3816_t.png
+image: /public/images/2020-09-15-how-to-chose-idea.md.3816.png
 ---
 
 ![Погані ідеї — хороші ідеї](/public/images/2020-09-15-how-to-chose-idea.md.3816.png)

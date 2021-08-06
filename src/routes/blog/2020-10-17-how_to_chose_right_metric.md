@@ -4,8 +4,9 @@ author: Володимир Лісівка
 comments: true
 usemathjax: true
 excerpt: Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога.
-date: 2020-10-17T13:35:07
+date: 2020-10-17T13:35:07+3000
 thumb: /public/images/thumbs/2020-10-17-how_to_chose_right_metric.md.755_t.png
+image: /public/images/2020-10-17-how_to_chose_right_metric.md.755.png
 ---
 
 ![Графік зростання стартапа - клюшка](/public/images/2020-10-17-how_to_chose_right_metric.md.755.png)

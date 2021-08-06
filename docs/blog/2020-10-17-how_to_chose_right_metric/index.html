@@ -1,9 +1,43 @@
-<!DOCTYPE html><html lang="uk"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Fail Fast: Як вибрати правильну метрику для стартапа</title><meta name="description" content="Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога." data-svelte="svelte-bi0fn"><link href="/blog/2020-10-17-how_to_chose_right_metric/" rel="canonical" data-svelte="svelte-bi0fn"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>FF</text></svg>" data-svelte="svelte-u9216s"><link rel="stylesheet" href="/_elderjs/assets/svelte-a63214f2.css" media="all" /><style></style></head><body class="blog">
+<!DOCTYPE html><html lang="uk"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Fail Fast: Як вибрати правильну метрику для стартапа</title><meta property="og:locale" content="uk_UA" data-svelte="svelte-15phc1x"><meta name="robots" content="index,follow" data-svelte="svelte-1f0hxex"><meta name="googlebot" content="index,follow" data-svelte="svelte-1f0hxex"><meta name="description" content="Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога." data-svelte="svelte-1f0hxex"><link rel="canonical" href="/blog/2020-10-17-how_to_chose_right_metric/" data-svelte="svelte-1f0hxex"><meta property="og:title" content="Fail Fast: Як вибрати правильну метрику для стартапа" data-svelte="svelte-1f0hxex">
+
+    <meta property="og:description" content="Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога." data-svelte="svelte-1f0hxex">
+
+    <meta property="og:url" content="https://failfast.org.ua/blog/2020-10-17-how_to_chose_right_metric/" data-svelte="svelte-1f0hxex">
+
+    <meta property="og:type" content="article" data-svelte="svelte-1f0hxex">
+
+    <meta property="article:published_time" content="2020-10-17T13:35:07+3000" data-svelte="svelte-1f0hxex">
+
+      
+
+      
+
+      
+
+      <meta property="article:author" content="Володимир Лісівка" data-svelte="svelte-1f0hxex">
+
+      
+
+    <meta property="og:image" content="/public/images/2020-10-17-how_to_chose_right_metric.md.755.png" data-svelte="svelte-1f0hxex">
+        <meta property="og:image:alt" content="Ілюстрація до статті" data-svelte="svelte-1f0hxex">
+        
+        <meta name="twitter:card" content="summary_large_image" data-svelte="svelte-1f0hxex">
+    
+    <meta name="twitter:title" content="Fail Fast: Як вибрати правильну метрику для стартапа" data-svelte="svelte-1f0hxex">
+    <meta name="twitter:description" content="Як вибрати метрику для стартапа, яка виведе ваш бізнес на шлях до єдинорога." data-svelte="svelte-1f0hxex">
+    <meta name="twitter:image" content="/public/images/2020-10-17-how_to_chose_right_metric.md.755.png" data-svelte="svelte-1f0hxex">
+    <meta name="twitter:image:alt" content="Ілюстрація до статті" data-svelte="svelte-1f0hxex"><!-- HTML_TAG_START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://failfast.org.ua/blog/2020-10-17-how_to_chose_right_metric/"},"headline":"Fail Fast: Як вибрати правильну метрику для стартапа","image":["/public/images/2020-10-17-how_to_chose_right_metric.md.755.png"],"datePublished":"2020-10-17T13:35:07+3000","author":{"@type":"Person","name":"Володимир Лісівка"},"publisher":{"@type":"Person","name":"Володимир М. Лісівка","logo":{"@type":"ImageObject","url":"https://failfast.org.ua/public/images/thumbs/vlisivka-photo_t.png"}}}</script><!-- HTML_TAG_END --><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>FF</text></svg>" data-svelte="svelte-u9216s"><link rel="stylesheet" href="/_elderjs/assets/svelte-a63214f2.css" media="all" /><style></style></head><body class="blog">
+
 <div class="container svelte-1adj7cv"><!-- HTML_TAG_START -->
+
+
+
+
 <a href="/">← На головну</a>
 
 <div class="title svelte-1sp2bm8"><h1 class="svelte-1sp2bm8">Як вибрати правильну метрику для стартапа</h1>
-  <small>Автор: Володимир Лісівка</small></div>
+  <small>Автор: Володимир Лісівка</small> <br>
+  <small>Опубліковано: <time datetime="2020-10-17T13:35:07+3000">Invalid Date</time></small> <br></div>
 
 <!-- HTML_TAG_START --><nav class="toc"><ol class="toc-level toc-level-1"><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#спочатку-розберемося-що-таке-стартап">Спочатку розберемося що таке стартап</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#які-метрики-допоможуть-стартапу-знайти-впр-pmf">Які метрики допоможуть стартапу знайти ВПР (PMF)?</a><ol class="toc-level toc-level-2"><li class="toc-item toc-item-h3"><a class="toc-link toc-link-h3" href="#продукт-та-покупці-ринок">Продукт та покупці (ринок)</a></li><li class="toc-item toc-item-h3"><a class="toc-link toc-link-h3" href="#відстеження-продаж">Відстеження продаж:</a></li><li class="toc-item toc-item-h3"><a class="toc-link toc-link-h3" href="#відстеження-собівартості">Відстеження собівартості:</a><ol class="toc-level toc-level-3"><li class="toc-item toc-item-h4"><a class="toc-link toc-link-h4" href="#пряма-реклама">Пряма реклама</a></li><li class="toc-item toc-item-h4"><a class="toc-link toc-link-h4" href="#прямі-продажі">Прямі продажі</a></li><li class="toc-item toc-item-h4"><a class="toc-link toc-link-h4" href="#маркетинг">Маркетинг</a></li><li class="toc-item toc-item-h4"><a class="toc-link toc-link-h4" href="#чутки">Чутки</a></li></ol></li><li class="toc-item toc-item-h3"><a class="toc-link toc-link-h3" href="#відстеження-ціни">Відстеження ціни</a></li></ol></li></ol></nav><p><img src="/public/images/2020-10-17-how_to_chose_right_metric.md.755.png" alt="Графік зростання стартапа - клюшка"></p>
 <h2 id="спочатку-розберемося-що-таке-стартап">Спочатку розберемося що таке стартап</h2>

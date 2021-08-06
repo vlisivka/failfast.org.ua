@@ -3,8 +3,9 @@ title: Продукт на пять балів
 author: Володимир Лісівка
 comments: true
 excerpt: Як створити унікальний продукт для нового ринку.
-date: 2020-09-06T21:25:23
+date: 2020-09-06T21:25:23+3000
 thumb: /public/images/thumbs/2020-09-06-five-star-product.md.5579_t.png
+image: /public/images/2020-09-06-five-star-product.md.5579.png
 ---
 
 ![20 балів з 5](/public/images/2020-09-06-five-star-product.md.5579.png)
