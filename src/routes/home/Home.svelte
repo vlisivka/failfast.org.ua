@@ -81,7 +81,7 @@
     description:"Fail Fast",
     url:"https://vlisivka.github.io/",
     images: [
-      { url: 'https://failfast.org.ua/public/images/failfast-logo.svg', alt: 'Помиляйся часто, швидко, дешево' }
+      { url: 'https://failfast.org.ua/public/images/failfast-logo.png', alt: 'Помиляйся часто, швидко, дешево' }
     ]
   }}
 
@@ -89,7 +89,7 @@
     //site: "@username",
     title: "Fail Fast",
     description: "Fail Fast: сайт спільноти українських стартаперів",
-    image: "https://failfast.org.ua/public/images/failfast-logo.svg",
+    image: "https://failfast.org.ua/public/images/failfast-logo.png",
     imageAlt: "Помиляйся часто, швидко, дешево"
   }}
 />
