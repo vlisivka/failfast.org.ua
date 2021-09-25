@@ -79,7 +79,7 @@
     type:"website",
     title:"Fail Fast",
     description:"Fail Fast: сайт спільноти українських стартаперів",
-    url:"https://vlisivka.github.io/",
+    url:"https://failfast.org.ua/",
     images: [
       { url: 'https://failfast.org.ua/public/images/failfast-logo.png', alt: 'Помиляйся часто, швидко, дешево' }
     ]
